@@ -22,7 +22,7 @@ jobs:
 
       - name: Setup mdbook-katex
         run: |
-          mdkir mdbook-katex
+          mkdir mdbook-katex
           curl -sSL https://github.com/lzanini/mdbook-katex/releases/download/v0.3.2/mdbook-katex-v0.3.2-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=mdbook-katex
           echo "$(pwd)/mdbook-katex" >> $GITHUB_PATH
 
