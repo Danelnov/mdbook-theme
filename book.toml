@@ -6,7 +6,6 @@ src = "src"
 title = "Mdbook Theme"
 
 [output.html]
-auto_render_katex = true
 additional-css = ["custom.css"]
 
 [output.katex]
